@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.desc-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+
+.tab {
+  flex-grow: 1;
+  text-align: center;
+  border-right: 1px solid black;
+  padding: 15px;
+}
