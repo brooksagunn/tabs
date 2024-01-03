@@ -12,6 +12,7 @@
   width: 500px;
   height: 300px;
   border: 1px solid black;
+  border-radius: 10px;
 
   display: flex;
   flex-direction: column;
@@ -23,9 +24,16 @@
   border-bottom: 1px solid black;
 }
 
+.desc-tabs :not(:last-child) {
+  border-right: 1px solid black;
+}
+
 .tab {
   flex-grow: 1;
   text-align: center;
-  border-right: 1px solid black;
   padding: 15px;
+}
+
+.isActive {
+  color: red;
 }
